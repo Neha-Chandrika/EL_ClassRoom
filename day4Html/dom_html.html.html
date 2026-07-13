@@ -188,9 +188,15 @@
   } 
 
   function demoGetElementsByClassName(){   
+
       let heading = document.getElementById("main-heading");
       heading.innerText="Selected using demoGetElementsByClassName()";
 
+      const cards = document.getElementsByClassName("student-card");
+
+        for (let i = 0; i < cards.length; i++) {
+            cards[i].classList.add("highlight");
+        }
       
       showOutput(
         "Method: demoGetElementsByClassName()\n\n " +
