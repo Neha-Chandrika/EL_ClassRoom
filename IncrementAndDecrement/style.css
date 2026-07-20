@@ -1,0 +1,26 @@
+h1{
+    margin: 0px;
+    height: 150px;
+    text-align: center;
+    /*background-color: aqua;*/
+    font-size: 8em;
+}
+
+.btn{
+    display: block;
+    text-align: center;
+}
+
+#btn1,#btn2, #btn3{
+    display: inline-block;
+    background-color: rgb(173, 105, 237);
+    padding : 5px 10px;
+    margin : 10px;
+    border-radius: 5px;
+    font-size: 20px;
+}
+
+
+#btn1:hover, #btn2:hover, #btn3:hover{
+    background-color: rgb(154, 58, 243);
+}
