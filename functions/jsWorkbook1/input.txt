@@ -1,0 +1,4 @@
+2
+101 Alice CSE 9.1
+102 Bob ECE 8.7
+103 Charlie ME 8.9
